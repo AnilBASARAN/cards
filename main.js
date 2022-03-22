@@ -7,9 +7,7 @@ fetch(url)
     .then(res => res.json())
     .then(data =>{
 
-       
-        console.log(data)
-        console.log(data.cards)
+      
 
 
         val1 = (data.cards[0].value)
