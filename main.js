@@ -2,7 +2,7 @@
 
 let deckID = ''
 
-let url = "https://deckofcardsapi.com/api/deck/yxsusg9nrwnn/draw/?count=2"
+let url = "https://deckofcardsapi.com/api/deck/kshfyt1xpdcm/draw/?count=2"
 fetch(url) 
     .then(res => res.json())
     .then(data =>{
