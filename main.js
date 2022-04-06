@@ -10,10 +10,10 @@ fetch(url)
       
 
 
-        val1 = (data.cards[0].value)
+        val1 = (data.cards[0].values())
          document.querySelector('#player1_image').src = (data.cards[0].image)
 
-         val2 = (data.cards[1].value)
+         val2 = (data.cards[1].values())
 
         document.querySelector('#player2_image').src = (data.cards[1].image)
 
